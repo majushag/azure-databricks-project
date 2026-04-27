@@ -1,0 +1,22 @@
+{
+	"name": "ds_http1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "httplinkedservice1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "majushag/azure-databricks-project/refs/heads/main/data/raw/AdventureWorks_Products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
