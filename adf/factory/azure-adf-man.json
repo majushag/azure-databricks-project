@@ -1,0 +1,15 @@
+{
+	"name": "azure-adf-man",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2f6fe919-3d1c-43ec-9fb0-f8c1091154ad",
+		"tenantId": "6a081663-f236-4704-87d9-9211e539de38"
+	}
+}
